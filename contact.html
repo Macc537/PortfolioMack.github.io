@@ -1,0 +1,95 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div class="container">
+    <div class="sidebar">
+
+      <nav>
+     <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="Projects.html">Projects</a></li>
+     <li><a href="contact.html">Contact me</a></li>
+     </ul>
+     </nav>
+
+     </div>
+    <div class="main">
+      <div class="hamburger">
+      <img class="ham"  src="ham.png"  alt="" width="23">
+      <img class="cross" src="cross.png" alt="" width="23">
+      </div>
+
+      <div class="contactform">
+        <h1>contact me for work/general enquiries</h1>
+     <form method="post">
+     <div class="mb-3">
+       <label for="clientemail" class="form-label">Email address</label>
+       <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+     </div>
+     <div class="mb-3">
+       <label for="ClientPhone" class="form-label">Password</label>
+       <input type="password" class="form-control" id="clientpassword">
+     </div>
+     <div class="mb-3">
+       <label for="ClientPhone" class="form-label">Phone</label>
+       <input type="phone" class="form-control" id="clientphone">
+     </div>
+     <div class="mb-3">
+       <label for="ClientPhone" class="form-label">Enquiry</label>
+       <input type="text" class="form-control" id="clientenquiry">
+     </div>
+     <div class="mb-3" id ="form-check">
+       <input type="checkbox" class="form-check-input" id="exampleCheck1">
+       <label class="form-check-label" for="isclient">Check me out</label>
+     </div>
+     <button id="bto" type="submit" class="btn-sm" style="padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+  ">Submit</button>
+   </form>
+ </div>
+</div>
+<script src="script.js"></script>
+
+
+</body>
+<script src="https://smtpjs.com/v3/smtp.js"
+</script>
+<script>
+var bto =document.getElementById('bto');
+bto.addEventListener('click',function(e){
+   e.preventDefault()
+   var email = document.getElementById('clientemail').value;
+   var password = document.getElementById('clientpassword').value;
+   var phone = document.getElementById('clientphone');
+   var enquiry = document.getElementById('clientenquiry');
+   var body="email:"+ email + '<br/> phone:' +  phone + '<br/>enquiry' + enquiry;
+
+   console.log('hi');
+   Email.send({
+    Host : "smtp.gmail.com",
+    Username : "smadhav527@gmail.com",
+    Password : "Ghost$1996",
+    To : 'smadhav527@gmail.com',
+    From : email,
+    Subject : enquiry,
+    Body :body
+}).then(
+  message => alert(message)
+);
+
+</script>
+</html>

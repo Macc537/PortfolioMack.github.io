@@ -1,0 +1,46 @@
+Madhav Sharma
+23a Saxon Street,LE3 0BL,Leicester,United kingdom,
+Mobile: 07388802754
+E-mail: smadhav527@gmail.com
+
+Career Objective:
+“To pursue a career in a progressive organization that gives a scope to enhance my knowledge in the field of information technologies and utilizing my skills towards the growth of the organization.”
+
+Education:
+
+2020 –  2022      	MSc in Cloud Computing,
+                                    University of Leicester, Leicester,UK
+Modules pursuing: Advanced Web Technologies, Software  Measurement and Quality Assurance, Internet and Cloud Computing, Financial Services Information Systems.
+
+2014 – 2018         	 B.E. in Computer Science and Engineering,
+                                     Chitkara University , Himachal Pradesh,India
+
+PROJECTS
+       Front end developer in Online Examination Management      System.
+•	 keeping records of all the students marks, besides that, there is also an
+•	section of admin which contains all details of quiz, reports and also how to add or edit questions in a particular quiz.
+•	HTML, CSS, Bootstrap and Javascript used for frontend development and database management handled by MYSQL.
+•	Impressive design for the quiz system and login page
+
+            Android Development (College Buddy Application)
+•	Developed an application which is primarily based to provide an interface between student and professor in which a student can have access to all the learning materials of all the subjects a student is enrolled in. An interface for students to submit their assignments, quizzes. The student and professor can connect with fellow students and supervisors. A lot other features such as assignment submission has been also implemented.
+•	Used Aiohttp (Async)  framework for Backend Application Framework ,Rest APIs for Android Application.
+•	Python for Backend Framework Development ,Java for Android Development and Postgres for Database design  .
+
+TRAINING & INTERNSHIPS
+Trained on Front-end Web Development
+                            ( JCS AQUISITIVE INFOTECH PVT LTD, Noida, India)
+A 6-month training on Front end Web Development which includes making a proper website in HTML,CSS,Bootstrap and javascript frameworks .Working with other collaegues to learn and build small web applications to improve my skills. Focused mainly on developing and design with great UI.
+
+
+ASSOCIATE ENGINEER PLACEMENT
+                 (ARISEDATA INFOTECH, 24 Home Straight,Newbury ,United Kingdom.)
+Write well designed, testable, efficient code by using best software development practices .Creating website layout/user interface by using standard HTML/CSS practices Integrate data from various back-end services and databases .Gather and refine specifications and requirements based on technical needs Create and maintain software documentation Be responsible for maintaining, expanding, and scaling our site .Stay plugged into emerging technologies/industry trends and apply them into operations and activities Cooperate with web designers to match visual design intent.
+
+
+
+Technical Skills
+MySql, html, Css, Bootstrap, Javascript, Java .
+Development Environment
+ Android Studio , Amazon web services,Visual studio ,Microsoft Excel
+Operating Systems   Windows
