@@ -66,30 +66,5 @@
 
 
 </body>
-<script src="https://smtpjs.com/v3/smtp.js"
-</script>
-<script>
-var bto =document.getElementById('bto');
-bto.addEventListener('click',function(e){
-   e.preventDefault()
-   var email = document.getElementById('clientemail').value;
-   var password = document.getElementById('clientpassword').value;
-   var phone = document.getElementById('clientphone');
-   var enquiry = document.getElementById('clientenquiry');
-   var body="email:"+ email + '<br/> phone:' +  phone + '<br/>enquiry' + enquiry;
 
-   console.log('hi');
-   Email.send({
-    Host : "smtp.gmail.com",
-    Username : "smadhav527@gmail.com",
-    Password : "Ghost$1996",
-    To : 'smadhav527@gmail.com',
-    From : email,
-    Subject : enquiry,
-    Body :body
-}).then(
-  message => alert(message)
-);
-
-</script>
 </html>
