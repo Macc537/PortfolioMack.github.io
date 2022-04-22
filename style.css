@@ -292,6 +292,7 @@ padding: 40px;
 
 }
 
+
 .descsecond{
 margin-top:-30px;
 margin-left:-100px;
@@ -309,6 +310,46 @@ width:25vw;
 
 
 }
+
+.future{
+ height:50vh;
+ width:45vw;
+ position:absolute;
+margin-top:450px;
+margin-left: 210px;
+}
+
+.thirdp{
+ margin-right:30px;
+padding: 40px;
+}
+
+.thirdp img{
+ width:30vw;
+ height:40vh;
+ border-radius: 10px;
+
+
+}
+
+.descthird{
+  margin-top:-30px;
+  margin-left:-100px;
+  text-align: center;
+  width:50vw;
+}
+
+.thirddesc
+{
+font-size: 15px;
+text-align: center;
+margin-left:175px;
+width:25vw;
+
+
+}
+
+
 
 
 .hamburger{
@@ -415,6 +456,15 @@ margin-top: 10px;
    margin: 50px 8px;
 
   }
+
+.future{
+  margin-top:50px;
+
+  position: relative;
+  margin-left: 5px;
+}
+
+
 .descfirst h2{
 margin-left: 100px;
 
@@ -423,3 +473,10 @@ margin-left: 100px;
 .descsecond h2{
   margin-left:100px;
 }
+
+
+.descthird h2{
+margin-left: 100px;
+
+}
+
